@@ -44,7 +44,7 @@ const VibeJSONConverter = () => {
     });
     
     // 4. Inconsistent spacing
-    vibeString = vibeString.replace(/  /g, (match) => {
+    vibeString = vibeString.replace(/ {2}/g, (match) => {
       const spaces = ["", " ", "    ", "\t", "      "];
       return spaces[Math.floor(Math.random() * spaces.length)];
     });
