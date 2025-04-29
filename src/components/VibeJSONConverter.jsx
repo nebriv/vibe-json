@@ -193,22 +193,6 @@ const VibeJSONConverter = () => {
     );
   };
 
-  // Links to relevant vibe coding resources
-  const vibeCodingResources = [
-    {
-      name: "GitHub Copilot",
-      url: "https://github.com/features/copilot"
-    },
-    {
-      name: "What is Vibe Coding?",
-      url: "https://www.technologyreview.com/2025/04/16/1115135/what-is-vibe-coding-exactly/"
-    },
-    {
-      name: "Awesome Vibe Coding Resources",
-      url: "https://github.com/roboco-io/awesome-vibecoding"
-    }
-  ];
-  
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 p-6">
       <div className="mx-auto max-w-4xl w-full bg-white rounded-lg shadow-xl overflow-hidden">
