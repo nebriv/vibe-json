@@ -197,7 +197,7 @@ const VibeJSONConverter = () => {
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 p-6">
       <div className="mx-auto max-w-4xl w-full bg-white rounded-lg shadow-xl overflow-hidden">
         <div className="p-6 bg-gray-800 text-white">
-          <h1 className="text-3xl font-bold mb-2 text-center">✨ VibeJSON.io ✨</h1>
+          <h1 className="text-3xl font-bold mb-2 text-center">✨ VibeJSON.lol ✨</h1>
           <p className="text-center text-gray-300 mb-4">Convert boring professional JSON into fun vibe JSON that's impossible to debug</p>
           
           {/* Mode toggle */}
