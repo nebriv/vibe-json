@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const VibeJSONConverter = () => {
   const [input, setInput] = useState('{\n  "name": "John Doe",\n  "age": 30,\n  "isEmployed": true,\n  "skills": ["JavaScript", "React", "Node.js"],\n  "address": {\n    "street": "123 Main St",\n    "city": "Anytown",\n    "zipCode": "12345"\n  }\n}');
