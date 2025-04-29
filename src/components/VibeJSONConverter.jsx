@@ -26,7 +26,7 @@ const VibeJSONConverter = () => {
       const rng = Math.random();
       
       // 5% chance for Bacon Ipsum
-      if (rng < 0.05) {
+      if (rng < 0.02) {
         setEasterEggTriggered(true);
         setEasterEggType('bacon');
         setOutput(generateBaconIpsum());
@@ -34,7 +34,7 @@ const VibeJSONConverter = () => {
       }
       
       // 5% chance for Lorem Ipsum
-      if (rng < 0.10) {
+      if (rng < 0.02) {
         setEasterEggTriggered(true);
         setEasterEggType('lorem');
         setOutput(generateLoremIpsum());
@@ -42,7 +42,7 @@ const VibeJSONConverter = () => {
       }
       
       // 5% chance for Rickroll
-      if (rng < 0.15) {
+      if (rng < 0.05) {
         setEasterEggTriggered(true);
         setEasterEggType('rickroll');
         setOutput(generateRickroll());
